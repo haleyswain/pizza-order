@@ -1,0 +1,29 @@
+#pizza-order {
+  display: none;
+}
+#price {
+  display: none;
+}
+.jumbotron {
+  background-image:url(https://static.pexels.com/photos/9708/food-pizza-restaurant-eating.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom:1px solid #ff6a00
+  background-color: #e0a025;
+  font-size: 24px;
+  color: white;
+  font-weight: bolder;
+}
+.jumbotron .container {
+  position:relative;
+  top:50px;
+}
+body {
+background-color: #e8e8e8;
+}
+#gif {
+  display: none;
+  height: 20px;
+  width: 50px;
+  object-position: center;
+}

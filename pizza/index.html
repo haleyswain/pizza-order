@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+   <link href="css/styles.css" rel="stylesheet" type="text/css">
+   <script src="js/jquery-3.1.1.js"></script>
+   <script src="js/scripts.js"></script>
+    <title>Pizza</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <center><h3>PIZZA!</h3>
+        <p>Use this form to order your favorite pizza!<p></center>
+      </div>
+    <form id="order">
+      <div class="form-group">
+        <h2> Pick Your Toppings:</h2>
+        <h3> Meat: </h3>
+        <input type="checkbox" name="topping" value="pepperoni">Pepperoni <br>
+          <input type="checkbox" name="topping" value="chicken"> Chicken<br>
+          <input type="checkbox" name="topping" value="bacon"> Bacon <br>
+          <input type="checkbox" name="topping" value="sausage"> Sausage <br>
+          <input type="checkbox" name="topping" value="ham"> Ham <br>
+          <h2> Veggies/fruit </h2>
+          <input type="checkbox" name="topping" value="mushrooms"> Mushrooms <br>
+          <input type = "checkbox" name="topping" value="peppers"> Peppers <br>
+          <input type = "checkbox" name="topping" value="olives"> Olives <br>
+          <input type = "checkbox" name="topping" value="pineapple"> Pineapple (even though its a tragedy to put pineapple on pizza)<br>
+          <h2> Cheese </h2>
+          <input type="checkbox" name="topping" value="mozzarella"> Mozzarella Cheese <br>
+          <input type = "checkbox" name="topping" value="feta"> Feta Cheese <br>
+          <input type="checkbox" name="topping" value="parmesan"> Parmesan Cheese <br>
+          <h3> What size pizza do you want? </h3>
+          <input type = "checkbox" name="size" value="small"> 8 Inch <br>
+          <input type = "checkbox" id="medium" name="size" value="medium"> 12 Inch <br>
+          <input type = "checkbox" name="size" value ="large"> 16 Inch <br>
+          <h3> What kind of crust would you like? </h3>
+          <input type = "checkbox" name="topping" value="thick"> Thick Crust <br>
+          <input type = "checkbox" name="topping" value="thin"> Thin Crust <br>
+      </div>
+      <button type="submit"> Show me my Pizza Order!</button>
+    </form>
+    <span id="pizza-order">
+      <p><b> These are the toppings you would like on your Pizza! </b></p>
+    </span>
+    <span id = "price">
+      <p><b> The total price of your pizza is: </b></p>
+    </span>
+    <br>
+    <br>
+    <span id = "gif">
+      <img src = "img/pizza2.gif" alt="gif"></img>
+    </span>
+  </div>
+
+  </body>
+</html>
