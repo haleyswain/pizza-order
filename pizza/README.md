@@ -29,4 +29,19 @@ In the event of any problems, please contact haley at haleyswain@gmail.com. Cont
 
 ### License
 
-* Copyright (c) 2016 Haley Swain 
+* Copyright (c) 2016 Haley Swain
+
+https://haleyswain.github.io/pizza-order/pizza/
+
+Specifications:
+* The website lets users select different toppings and crust types.
+*Input: Medium thin crust pizza with sausage, olives, and mozzarella cheese.
+*Output: Medium thin crust pizza with sausage, olives, and mozzarella cheese.
+
+*The website tells the user how much their pizza will cost.
+*Input: Medium thin crust pizza with sausage, olives, and mozzarella cheese.
+*Output: The total cost for your pizza is $18.00.
+
+*The website will tell the user which toppings they selected for their pizza.
+*Input: Medium thin crust pizza with sausage, olives, and mozzarella cheese.
+*Output: Medium thin crust pizza with sausage, olives, and mozzarella cheese. 
